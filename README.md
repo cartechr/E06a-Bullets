@@ -1,25 +1,6 @@
-# E06a-Bullets
-Playing with bullet sprites:
-
-It's narwhals vs. penguins(?)! These natural enemies are locked in a battle; who will survive?
-
-I have given you the beginnings of a shooter game. At a minimum, you will need to generate a bullet when the mouse button is clicked (line 95), and then detect a collsion with a penguin (line 76), decrease its health, check if it dies, and increase the player's score.
-
-For extra credit, end the game when all the penguins have been killed.
-
-I will award significant extra credit if you subsequently create a main2.py, using the same framework, that allows the penguins to fire back. I have included a bullet_enemy.png asset for that purpose. Even more points will be awarded if you include explosions and/or damage indicators.
-
-To get you started, this is how I generated a new bullet:
-
-```
-    x = self.player.center_x
-    y = self.player.center_y + 15
-    bullet = Bullet((x,y),(0,10),BULLET_DAMAGE)
-    self.bullet_list.append(bullet)
-```
-
-The arcade.check_for_collision_with_list(sprite, spriteList) method takes a sprite and a spriteList and returns a list of any elements from spriteList that are currently colliding with sprite.
-
-self.player.kill() will remove the player sprite. .kill() can be (similarly) used to remove any sprite.
-
-As always, let me know if you have any questions.
+On this assignment, I have completed all of the requirements:
+1)I was able to make the bullet appear and shoot from my player.
+2)I added some code to make the bullets hit the enemies. 
+3)I tried doing the extra credit, but my attempt was not successful.
+4)I was even able to add two more bullets to the scenario and made my player shoot a tryshot(shoot three bullet at one time instead of one).
+    4a)The idea came to my head, and I was just very interested to add it to the game.
